@@ -1,0 +1,10 @@
+module MinCloud {
+    header "WXApi.h"
+    header "WXApiObject.h"
+    header "WechatAuthSDK.h"
+    header "AlipaySDK.framework/Headers/AlipaySDK.h"
+    header "WBHttpRequest.h"
+    header "WeiboSDK.h"
+
+    export *
+}

@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.9.1)
+  - MinCloud (1.2.1):
+    - MinCloud/Alipay (= 1.2.1)
+    - MinCloud/Core (= 1.2.1)
+    - MinCloud/Sina (= 1.2.1)
+    - MinCloud/WeChat (= 1.2.1)
+  - MinCloud/Alipay (1.2.1)
+  - MinCloud/Core (1.2.1):
+    - Moya (~> 13.0)
+  - MinCloud/Sina (1.2.1)
+  - MinCloud/WeChat (1.2.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - MinCloud (from `https://github.com/ifanrx/hydrogen-ios-sdk.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - Result
+
+EXTERNAL SOURCES:
+  MinCloud:
+    :git: https://github.com/ifanrx/hydrogen-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  MinCloud:
+    :commit: 1d49322afa8b0068f7a11a344727516b5617ae0f
+    :git: https://github.com/ifanrx/hydrogen-ios-sdk.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  MinCloud: f659076bc35d699d2267af54a941af7076a491d0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: 89eb9c95e57cd5012fcbc291e81f3680c9ce0da2
+
+COCOAPODS: 1.10.0.rc.1

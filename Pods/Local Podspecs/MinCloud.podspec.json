@@ -1,0 +1,118 @@
+{
+  "name": "MinCloud",
+  "version": "1.2.1",
+  "summary": "知晓云 iOS SDK",
+  "description": "知晓云是一个实时的后端云服务。使用它后，开发人员只需简单地在 App 中接入 SDK，而无需管理服务器或编写后端代码，即可轻松构建功能丰富的 App。",
+  "swift_versions": "5.0",
+  "homepage": "https://cloud.minapp.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pengquanhua": "pengquanhua@ifanr.com"
+  },
+  "source": {
+    "git": "https://github.com/ifanrx/hydrogen-ios-sdk.git",
+    "tag": "1.2.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "module_map": "MinCloud/module.modulemap",
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "MinCloud/*.{swift}",
+      "dependencies": {
+        "Moya": [
+          "~> 13.0"
+        ]
+      },
+      "resources": "MinCloud/MinCloud.bundle"
+    },
+    {
+      "name": "Alipay",
+      "resources": "MinCloud/AlipaySDK.bundle",
+      "ios": {
+        "vendored_frameworks": "MinCloud/AlipaySDK.framework"
+      },
+      "frameworks": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CFNetwork",
+        "CoreGraphics",
+        "QuartzCore",
+        "CoreText",
+        "CoreMotion",
+        "UIKit",
+        "Foundation"
+      ],
+      "libraries": [
+        "z",
+        "c++"
+      ],
+      "pod_target_xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/MinCloud"
+      },
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/MinCloud"
+      }
+    },
+    {
+      "name": "WeChat",
+      "source_files": [
+        "MinCloud/WechatAuthSDK.h",
+        "MinCloud/WXApiObject.h",
+        "MinCloud/WXApi.h"
+      ],
+      "vendored_libraries": "MinCloud/libWeChatSDK.a",
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-Objc -all_load"
+      },
+      "frameworks": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "Security",
+        "CoreGraphics",
+        "CFNetwork"
+      ],
+      "libraries": [
+        "z",
+        "c++",
+        "sqlite3.0"
+      ],
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/MinCloud"
+      }
+    },
+    {
+      "name": "Sina",
+      "source_files": [
+        "MinCloud/WeiboSDK.h",
+        "MinCloud/WBHttpRequest.h"
+      ],
+      "resources": "MinCloud/WeiboSDK.bundle",
+      "vendored_libraries": "MinCloud/libWeiboSDK.a",
+      "frameworks": [
+        "Photos",
+        "ImageIO",
+        "SystemConfiguration",
+        "CoreText",
+        "QuartzCore",
+        "Security",
+        "UIKit",
+        "Foundation",
+        "CoreGraphics",
+        "CoreTelephony",
+        "WebKit"
+      ],
+      "libraries": [
+        "sqlite3",
+        "z"
+      ]
+    }
+  ],
+  "swift_version": "5.0"
+}

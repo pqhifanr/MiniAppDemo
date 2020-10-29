@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MiniAppDemo/Pods-MiniAppDemo-resources.sh
+${PODS_ROOT}/MinCloud/MinCloud/AlipaySDK.bundle
+${PODS_ROOT}/MinCloud/MinCloud/MinCloud.bundle
+${PODS_ROOT}/MinCloud/MinCloud/WeiboSDK.bundle
