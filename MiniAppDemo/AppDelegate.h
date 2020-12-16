@@ -6,9 +6,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@import MinCloud;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) DFNavigationController *navigationController;
+
++ (AppDelegate *)sharedInstance;
 
 @end
 

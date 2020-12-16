@@ -52,14 +52,17 @@
 		49A99B86C778C238E61A57F8 /* SPMTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629E2DAFE6F49D8F2EA49206 /* SPMTracker.framework */; };
 		4B23E64F71D212297FE94150 /* APMBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8966DD7689B733AFF1600C /* APMBeauty.framework */; };
 		4C4C0FF0254A94D20010B9BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C0FEF254A94D20010B9BD /* AppDelegate.m */; };
-		4C4C0FF3254A94D20010B9BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C0FF2254A94D20010B9BD /* SceneDelegate.m */; };
 		4C4C0FF6254A94D20010B9BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C0FF5254A94D20010B9BD /* ViewController.m */; };
-		4C4C0FF9254A94D20010B9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C0FF7254A94D20010B9BD /* Main.storyboard */; };
 		4C4C0FFB254A94D50010B9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C0FFA254A94D50010B9BD /* Assets.xcassets */; };
 		4C4C0FFE254A94D50010B9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C0FFC254A94D50010B9BD /* LaunchScreen.storyboard */; };
 		4C4C1001254A94D50010B9BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1000254A94D50010B9BD /* main.m */; };
 		4C4C102A254A97F20010B9BD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1029254A97F20010B9BD /* Test.swift */; };
 		4C4C102D254A9B710010B9BD /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1453B47597FA4998E7BA87A6 /* UTDID.framework */; };
+		4C4C105B254AA0D90010B9BD /* MPBootLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1057254AA0D90010B9BD /* MPBootLoaderImpl.m */; };
+		4C4C105C254AA0D90010B9BD /* MPH5WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C105A254AA0D90010B9BD /* MPH5WebViewController.m */; };
+		4C4C1065254AA11B0010B9BD /* MPCustomPluginsJsapis.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C105F254AA11B0010B9BD /* MPCustomPluginsJsapis.bundle */; };
+		4C4C1066254AA11B0010B9BD /* MPCustomPresetApps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C4C1060254AA11B0010B9BD /* MPCustomPresetApps.bundle */; };
+		4C4C1068254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1062254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.m */; };
 		4D3911F65198D1E6F61BC7B9 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563BD0AA8380D5408676D417 /* Contacts.framework */; };
 		4E3ABD9FFD1395A1ACE83287 /* BeeCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72E79949F5638E3F141BF7D0 /* BeeCapture.bundle */; };
 		4E59AD738F4F1CE9EC437BF7 /* BeePhotoPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F047FEB3BC44D93C191459CA /* BeePhotoPicker.framework */; };
@@ -222,17 +225,23 @@
 		4C4C0FEB254A94D20010B9BD /* MiniAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4C0FEE254A94D20010B9BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C4C0FEF254A94D20010B9BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C4C0FF1254A94D20010B9BD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4C4C0FF2254A94D20010B9BD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4C4C0FF4254A94D20010B9BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C4C0FF5254A94D20010B9BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4C4C0FF8254A94D20010B9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C4C0FFA254A94D50010B9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4C0FFD254A94D50010B9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4C0FFF254A94D50010B9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4C1000254A94D50010B9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C4C1028254A97F20010B9BD /* MiniAppDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniAppDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		4C4C1029254A97F20010B9BD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		4C4C1057254AA0D90010B9BD /* MPBootLoaderImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBootLoaderImpl.m; sourceTree = "<group>"; };
+		4C4C1058254AA0D90010B9BD /* MPBootLoaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBootLoaderImpl.h; sourceTree = "<group>"; };
+		4C4C1059254AA0D90010B9BD /* MPH5WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPH5WebViewController.h; sourceTree = "<group>"; };
+		4C4C105A254AA0D90010B9BD /* MPH5WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPH5WebViewController.m; sourceTree = "<group>"; };
+		4C4C105F254AA11B0010B9BD /* MPCustomPluginsJsapis.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPCustomPluginsJsapis.bundle; sourceTree = "<group>"; };
+		4C4C1060254AA11B0010B9BD /* MPCustomPresetApps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPCustomPresetApps.bundle; sourceTree = "<group>"; };
+		4C4C1062254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCustomPluginsJsapisDemo.m; sourceTree = "<group>"; };
+		4C4C1063254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCustomPluginsJsapisDemo.h; sourceTree = "<group>"; };
+		4C4C106C254AA2DD0010B9BD /* MiniAppDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniAppDemo.entitlements; sourceTree = "<group>"; };
 		4D73662B3B50D03A07F4EE6B /* Pods-MiniAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAppDemo.release.xcconfig"; path = "Target Support Files/Pods-MiniAppDemo/Pods-MiniAppDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4E44E907F12E48A170E4899B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		504D4DAD19DCAFC5D2625FF4 /* BEEAudioUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BEEAudioUtil.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BEEAudioUtil/1.0.0.200228120654/BEEAudioUtil.framework; sourceTree = "<absolute>"; };
@@ -507,13 +516,16 @@
 		4C4C0FED254A94D20010B9BD /* MiniAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4C4C106C254AA2DD0010B9BD /* MiniAppDemo.entitlements */,
+				4C4C105E254AA11B0010B9BD /* AppConfig */,
 				4C4C0FEE254A94D20010B9BD /* AppDelegate.h */,
 				4C4C0FEF254A94D20010B9BD /* AppDelegate.m */,
-				4C4C0FF1254A94D20010B9BD /* SceneDelegate.h */,
-				4C4C0FF2254A94D20010B9BD /* SceneDelegate.m */,
 				4C4C0FF4254A94D20010B9BD /* ViewController.h */,
 				4C4C0FF5254A94D20010B9BD /* ViewController.m */,
-				4C4C0FF7254A94D20010B9BD /* Main.storyboard */,
+				4C4C1058254AA0D90010B9BD /* MPBootLoaderImpl.h */,
+				4C4C1057254AA0D90010B9BD /* MPBootLoaderImpl.m */,
+				4C4C1059254AA0D90010B9BD /* MPH5WebViewController.h */,
+				4C4C105A254AA0D90010B9BD /* MPH5WebViewController.m */,
 				4C4C0FFA254A94D50010B9BD /* Assets.xcassets */,
 				4C4C0FFC254A94D50010B9BD /* LaunchScreen.storyboard */,
 				4C4C0FFF254A94D50010B9BD /* Info.plist */,
@@ -523,6 +535,17 @@
 				4C4C1028254A97F20010B9BD /* MiniAppDemo-Bridging-Header.h */,
 			);
 			path = MiniAppDemo;
+			sourceTree = "<group>";
+		};
+		4C4C105E254AA11B0010B9BD /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4C4C105F254AA11B0010B9BD /* MPCustomPluginsJsapis.bundle */,
+				4C4C1060254AA11B0010B9BD /* MPCustomPresetApps.bundle */,
+				4C4C1062254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.m */,
+				4C4C1063254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.h */,
+			);
+			path = AppConfig;
 			sourceTree = "<group>";
 		};
 		4E70F2D770376C22844D2728 /* Targets */ = {
@@ -806,7 +829,6 @@
 			files = (
 				4C4C0FFE254A94D50010B9BD /* LaunchScreen.storyboard in Resources */,
 				4C4C0FFB254A94D50010B9BD /* Assets.xcassets in Resources */,
-				4C4C0FF9254A94D20010B9BD /* Main.storyboard in Resources */,
 				12D0B96AEB086161F89F24FB /* meta.config in Resources */,
 				80CBBFF06C6677C2D8FE3FA6 /* yw_1222.jpg in Resources */,
 				62E1EAA20E81E3ECD163A841 /* APMobileNetwork.bundle in Resources */,
@@ -837,11 +859,13 @@
 				2F43846713C2819A001B20C6 /* NebulaSDKPlugins.bundle in Resources */,
 				C13142DEA92628EA0CB3F3B3 /* AOMPDevice.bundle in Resources */,
 				581A921CC3912F8915270224 /* TinyappService.bundle in Resources */,
+				4C4C1065254AA11B0010B9BD /* MPCustomPluginsJsapis.bundle in Resources */,
 				A4BD67D00B63506B8DDD3A6B /* BeeLocationPicker.bundle in Resources */,
 				E4507988033FF26B3795B8DE /* APMap.bundle in Resources */,
 				F69EB9BD591D37E4771BDB5C /* BeePhoto.bundle in Resources */,
 				60E19D0D9AF424226D19B17E /* BeePhotoBrowser.bundle in Resources */,
 				8A85A10A8163AA606D5EFE1E /* BeeMediaPlayer.bundle in Resources */,
+				4C4C1066254AA11B0010B9BD /* MPCustomPresetApps.bundle in Resources */,
 				CF6020EF6B621C8D43847070 /* BeePhotoPicker.bundle in Resources */,
 				1E369EE755E9B19D5D23A31F /* BEEAudioUtil.bundle in Resources */,
 				38EDA5031EE82B18C49DF080 /* BeeCityPicker.bundle in Resources */,
@@ -916,11 +940,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C4C0FF6254A94D20010B9BD /* ViewController.m in Sources */,
+				4C4C105C254AA0D90010B9BD /* MPH5WebViewController.m in Sources */,
 				4C4C0FF0254A94D20010B9BD /* AppDelegate.m in Sources */,
 				4C4C1001254A94D50010B9BD /* main.m in Sources */,
 				4C4C102A254A97F20010B9BD /* Test.swift in Sources */,
-				4C4C0FF3254A94D20010B9BD /* SceneDelegate.m in Sources */,
 				15A086BF637E59D18FB98478 /* MPaaSInterface+MiniAppDemo.m in Sources */,
+				4C4C1068254AA11B0010B9BD /* MPCustomPluginsJsapisDemo.m in Sources */,
+				4C4C105B254AA0D90010B9BD /* MPBootLoaderImpl.m in Sources */,
 				AD794D8A329D381E8002034E /* DTFrameworkInterface+MiniAppDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -928,14 +954,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C4C0FF7254A94D20010B9BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C4C0FF8254A94D20010B9BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C4C0FFC254A94D50010B9BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1066,8 +1084,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MiniAppDemo/MiniAppDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QQR699W45;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APLog/3.0.2.200619152113/**",
@@ -1169,7 +1189,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MiniAppDemo/MiniAppDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
 			};
@@ -1182,8 +1202,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MiniAppDemo/MiniAppDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QQR699W45;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APLog/3.0.2.200619152113/**",
@@ -1284,7 +1306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ifanr.ios-sdk-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MiniAppDemo/MiniAppDemo-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
 			};
